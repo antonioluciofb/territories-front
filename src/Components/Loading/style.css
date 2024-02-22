@@ -1,0 +1,60 @@
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #f1faee;
+  font-size: 4rem;
+}
+
+.roller {
+  height: 4.125rem;
+  line-height: 4rem;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: #1d3557;
+}
+
+#spare-time {
+  font-size: 1rem;
+  font-style: italic;
+  letter-spacing: 1rem;
+  margin-top: 0;
+  color: #a8dadc;
+}
+
+.roller #rolltext {
+  position: absolute;
+  top: 0;
+  animation: slide 20s normal;
+}
+
+@keyframes slide {
+  0% {
+    top: 1rem;
+  }
+  5% {
+    top: 1rem;
+  }
+  15% {
+    top: -3.5rem;
+  }
+  30% {
+    top: -8rem;
+  }
+  45% {
+    top: -13rem;
+  }
+  60% {
+    top: -17rem;
+  }
+  75% {
+    top: -21.7rem;
+  }
+  100% {
+    top: -21.7rem;
+  }
+}
